@@ -1,0 +1,328 @@
+/*
+	Theme Name: Semplice Child Theme
+	Description: Child Theme for Semplice
+	Author: Tim Clifford - tim-clifford.com
+	Template: semplice
+*/
+
+/* Font face */
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu/Apercu.eot');
+    src: url('fonts/Apercu/Apercu.eot') format('embedded-opentype'),
+         url('fonts/Apercu/Apercu.woff2') format('woff2'),
+         url('fonts/Apercu/Apercu.woff') format('woff'),
+         url('fonts/Apercu/Apercu.ttf') format('truetype'),
+         url('fonts/Apercu/Apercu.svg#Apercu') format('svg');
+}
+
+@font-face {
+    font-family: 'ApercuBold';
+    src: url('fonts/Apercu/ApercuBold.eot');
+    src: url('fonts/Apercu/ApercuBold.eot') format('embedded-opentype'),
+         url('fonts/Apercu/ApercuBold.woff2') format('woff2'),
+         url('fonts/Apercu/ApercuBold.woff') format('woff'),
+         url('fonts/Apercu/ApercuBold.ttf') format('truetype'),
+         url('fonts/Apercu/ApercuBold.svg#ApercuBold') format('svg');
+}
+
+
+h1, h2, h3, h4, h5, p {
+	font-family: 'Apercu';
+}
+
+.share-box {
+	display: none;
+}
+
+/* Custom CSS Start */
+
+h1 {
+	font-weight: bolder;
+    font-family: 'ApercuBold';
+    font-size: 5em;
+    color: #2b2b2b;
+}
+
+.logoContainer {
+	margin-bottom: 0;
+	text-align: center;
+	font-family: 'ApercuBold';
+}
+
+.logo {
+	height: 100%;
+    max-height: 395px;
+    max-width: 210px;
+    width: 100%;
+}
+
+svg g {
+	fill: #2b2b2b !important;
+}
+
+.headline {
+	text-align: center;
+	font-family: 'ApercuBold';
+    font-weight: bolder;
+    font-size: 80px;
+    margin-bottom: 200px !important;
+    color: #2b2b2b;
+    letter-spacing: -2px;
+}
+
+.sub-headline {
+	text-align: center;
+    font-family: 'ApercuBold';
+    font-weight: normal;
+    font-size: 2.4em;
+    color: #2b2b2b;
+    margin-bottom: 140px !important;
+    line-height: 50px;
+}
+
+#circle {
+	position: absolute;
+    right: 40px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+#circle.green {
+	background: #00FF66;
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#circle.yellow {
+	background: #FFFF66;
+	width: 20px;
+	height: 20px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+p.box {
+	position: absolute;
+    right: 75px;
+    top: 32px;
+    font-size: 1.6em;
+}
+
+#content_o656d3hje .content-container {
+	padding-top: 80px !important;
+}
+
+#currentProjects {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-height: 950px;
+    margin: 0 auto;
+    color: #fff;
+    background: #444;
+    height: 100%;
+}
+
+#currentProjects .content-container {
+	margin: 0px auto;
+	padding: 50px;
+}
+
+#currentProjects p {
+	margin: 0 0 2em;
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Apercu';
+    letter-spacing: -1px;
+}
+
+#currentProjects::before {
+    content:"";
+    position:absolute;
+    z-index:-1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-size: cover !important;
+    background:url("http://www.gurustudio.io/wp-content/uploads/2016/04/Hero_02.png") no-repeat;
+}
+
+.blueBox {
+	float:right !important;
+}
+
+#masonry-content_9a0glicc9 {
+	min-height: 750px;
+}
+
+#content_sr2qih76p .mc-sub-content-container {
+	padding: 50px;
+}
+
+#content_sr2qih76p p {
+	line-height: 60px !important;
+	letter-spacing: -1px;
+}
+
+#masonry-content_9a0glicc9 .masonry-span6 {
+    max-height: 750px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#masonry-content_9a0glicc9 .masonry-span6 p {
+	color: #ffffff;
+}
+
+.mc-sub-content-container {
+	width:100%;
+}
+
+.footer-bg {
+	background: #EBEBEB;
+    padding: 215px;
+    opacity: 1;
+}
+
+#footer img {
+	width: 45px;
+}
+
+.footer-bg p {
+	opacity: 1;
+	font-size: 1.4em;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.textOverlay {
+	position: absolute;
+    right: 40px;
+    bottom: 100px;
+    font-family: 'Apercu';
+}
+
+#mc_embed_signup_scroll {
+	margin: 0 300px 50px;
+}
+
+#mc_embed_signup_scroll label {
+	display: none;
+}
+
+#mc_embed_signup_scroll input {
+	margin-bottom: 20px;
+}
+
+#mc_embed_signup_scroll .mailchimp-submit-button {
+	margin-top: 50px !important;
+    color: #ffffff;
+    letter-spacing: 0px;
+    background-color: #000000;
+    padding: 20px 30px 20px 30px !important;
+    border-width: 0px !important;
+    border-color: #000000;
+    border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#mc_embed_signup_scroll .mailchimp-submit-button:hover {
+    background-color: #e6be00 !important;
+    color: #ffffff !important;
+    border-color: #000000 !important;
+    letter-spacing: 0px !important;
+}
+
+#mc_embed_signup_scroll input.email, #mc_embed_signup_scroll input.text {
+    text-align: left;
+    background-color: #f0f0f0;
+    padding: 20px 30px 20px 30px !important;
+    border-width: 0px;
+    border-color: #000000;
+    border-radius: 0px;
+    display: block !important;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #999999;
+}
+
+#mc_embed_signup_scroll input.email:hover, #mc_embed_signup_scroll input.email:focus, #mc_embed_signup_scroll input.text:hover, #mc_embed_signup_scroll input.text:focus {
+	border-color: #000000 !important;
+	color: #000000 !important;
+}
+
+/* Custom CSS End */
+
+@media (max-width: 567px) {
+	h1 {
+		line-height: 80px;
+	}
+
+	.footer-bg {
+		padding: 170px 150px;
+	}
+
+	#currentProjects .content-container {
+		padding: 50px !important;
+	}
+
+	#currentProjects {
+		min-height: 585px;
+	}
+
+	#currentProjects p {
+		line-height: 30px;
+	}
+
+	#footer .right {
+		text-align: center !important;
+	}
+
+	.textOverlay {
+		position: absolute;
+	    font-family: 'Apercu';
+	    left: 20%;
+	    right: 20%;
+	    bottom: 75px;
+	}
+
+	#mc_embed_signup_scroll {
+	    margin: 0px auto;
+	    padding: 20px;
+	}
+
+}
+
+@media (min-width: 568px) && (max-width: 1024px) {
+
+	#currentProjects .content-container {
+
+	}
+
+}
+
+
+@media (max-width: 1024px) {
+	#content_sr2qih76p {
+		.masonry-item {
+			font-size: 25px;
+		}
+	}
+}
